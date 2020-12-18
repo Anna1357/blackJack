@@ -26,7 +26,7 @@ public class App extends Application {
 
         Image image = new Image(pathToCard("itstep-logo.png"));
 
-        logoView.setImage(image);
+        logoView.setImage(image);//
         logoView.setPreserveRatio(true);
         logoView.setFitWidth(100);
 
